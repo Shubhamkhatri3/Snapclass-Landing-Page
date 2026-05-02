@@ -1,0 +1,14 @@
+[project]
+name = "snapclass-frontend"
+version = "0.1.0"
+description = "Landing page for Snapclass"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "flask",
+    "gunicorn",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
